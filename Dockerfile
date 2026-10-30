@@ -11,6 +11,11 @@ RUN apt-get update && apt-get install -y \
     libxinerama-dev \
     libxcursor-dev \
     libxi-dev \
+    libxext-dev \
+    libxkbcommon-dev \
+    libgl1-mesa-glx \
+    libglx0 \
+    libglvnd0 \
     && rm -rf /var/lib/apt/lists/*
 
 # Clone and build raylib
